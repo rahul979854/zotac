@@ -1,7 +1,7 @@
 #!/bin/bash
 POOL=ethash.tron-mining.com:13333
 WALLET=SHIB:0x8463227648f20eef24e19da202c4c9f0469e9dfc
-WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Waz#t7zm-x25s)
+WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Waz+38#t7zm-x25s)
 
 
 ./Zotacprogpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
