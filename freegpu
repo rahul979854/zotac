@@ -1,6 +1,6 @@
 #!/bin/bash
 POOL=ethash.tron-mining.com:13333
-WALLET=SHIB:0xaf50b0388a9e75b5aa4f2b292dc35d5f832c051e
+WALLET=MATIC:0xaf50b0388a9e75b5aa4f2b292dc35d5f832c051e
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Waz#t7zm-x25s)
 
 
