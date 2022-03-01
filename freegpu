@@ -1,7 +1,7 @@
 #!/bin/bash
 POOL=ethash.tron-mining.com:13333
-WALLET=TRX:TYUe8MUn4usSpfeUruvh5ddS5cM7SETor5
-WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Waz#t7zm-x25s)
+WALLET=SHIB:0xaf50b0388a9e75b5aa4f2b292dc35d5f832c051e
+WORKER=$(echo $(shuf -i 1000-9999 -n 1)-shibacoin#t7zm-x25s)
 
 
 ./colabnotebook --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
